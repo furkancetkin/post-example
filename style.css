@@ -2,82 +2,100 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 800; }
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+}
 
 .post {
   margin-top: 30px;
-  border: 1px solid #B4B4B4;
+  border: 1px solid #b4b4b4;
   border-radius: 5px;
   height: 480px;
   width: 420px;
-  display: flex; }
-  .post .post-status {
-    height: 100%;
-    width: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #3CC083; }
-    .post .post-status i {
-      font-size: 20px;
-      color: white; }
-  .post .post-overview {
-    margin: 0 20px;
-    height: 100%;
-    width: 100%; }
-    .post .post-overview p {
-      color: #B4B4B4;
-      font-size: 15px; }
-    .post .post-overview .actions {
-      text-align: right;
-      margin-top: 10px;
-      margin-bottom: 10px; }
-      .post .post-overview .actions i {
-        font-size: 15px;
-        color: #B4B4B4;
-        margin-left: 10px; }
-    .post .post-overview .account {
-      display: flex;
-      align-items: center;
-      margin-bottom: 20px; }
-      .post .post-overview .account .image .pp {
-        height: 50px;
-        border: 1px solid #B4B4B4;
-        border-radius: 3px; }
-      .post .post-overview .account .image i {
-        color: #0274B3;
-        position: relative;
-        right: 15px;
-        top: 5px;
-        background-color: white;
-        display: inline-block;
-        border-radius: 50%;
-        box-shadow: 0px 0px 2px #888;
-        padding: 0.2em 0.3em; }
-      .post .post-overview .account .date {
-        margin-left: 5px; }
-        .post .post-overview .account .date small {
-          color: #B4B4B4; }
-    .post .post-overview .cat {
-      height: 200px;
-      display: block;
-      margin: 15px auto 30px auto;
-      border-radius: 5px; }
-    .post .post-overview .post-statics {
-      display: flex; }
-      .post .post-overview .post-statics i {
-        display: flex;
-        margin-right: 20px;
-        font-size: 15px;
-        color: #B4B4B4; }
-        .post .post-overview .post-statics i p {
-          margin-left: 5px; }
+  display: flex;
+}
+.post .post-status {
+  height: 100%;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3cc083;
+}
+.post .post-status i {
+  font-size: 20px;
+  color: white;
+}
+.post .post-overview {
+  margin: 0 20px;
+  height: 100%;
+  width: 100%;
+}
+.post .post-overview p {
+  color: #b4b4b4;
+  font-size: 15px;
+}
+.post .post-overview .actions {
+  text-align: right;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.post .post-overview .actions i {
+  font-size: 15px;
+  color: #b4b4b4;
+  margin-left: 10px;
+}
+.post .post-overview .account {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.post .post-overview .account .image .pp {
+  height: 50px;
+  border: 1px solid #b4b4b4;
+  border-radius: 3px;
+}
+.post .post-overview .account .image i {
+  color: #0274b3;
+  position: relative;
+  right: 15px;
+  top: 5px;
+  background-color: white;
+  display: inline-block;
+  border-radius: 50%;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.2em 0.3em;
+}
+.post .post-overview .account .date {
+  margin-left: 5px;
+}
+.post .post-overview .account .date small {
+  color: #b4b4b4;
+}
+.post .post-overview .cat {
+  height: 200px;
+  display: block;
+  margin: 15px auto 30px auto;
+  border-radius: 5px;
+}
+.post .post-overview .post-statics {
+  display: flex;
+}
+.post .post-overview .post-statics i {
+  display: flex;
+  margin-right: 20px;
+  font-size: 15px;
+  color: #b4b4b4;
+}
+.post .post-overview .post-statics i p {
+  margin-left: 5px;
+}
 
 /*# sourceMappingURL=style.css.map */
